@@ -1,9 +1,7 @@
-# Old system
 class LocalFile:
     def read(self):
         return "Data read from local disk."
 
-# New system (Let's say it reads from AWS S3)
 class S3File:
     def fetch(self):
         return "Data fetched from S3 bucket."
